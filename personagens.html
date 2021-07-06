@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WaifuFlix!</title>
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/fonts/Yokelvision-J6yx.ttf">
+        <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
+        <link rel="icon" href="/favicon.png" type="image/x-icon">
+    </head>
+
+    <body>
+        <h1 class="title">WaifuFlix!</h1>
+                <p class="bio">"Waifu" é um termo utilizado por fãs de anime para chamar as personagens que eles gostam ou até mesmo
+                    sente atração. O termo vem do inglês "Wife", que significa esposa.</p>
+
+        <div id="myBtnContainer" class="navegacao">
+            <a href="/index.html"><button class="btn">Classificar Por Anime</button></a>
+            <a href="/personagens.html"><button class="btn">Classificar Por Personagem</button></a>
+            <a href="/caracteristicas.html"><button class="btn">Classificar Por Características</button></a>
+        </div>
+
+        <div id="myBtnContainer" class="navegacao">
+            <button class="btn active" onclick="filterSelection('all')"> Todos as Personagem</button>
+            <button class="btn" onclick="filterSelection('Aa')"> A</button>
+            <button class="btn" onclick="filterSelection('Bb')"> B</button>
+            <button class="btn" onclick="filterSelection('Cc')"> C</button>
+            <button class="btn" onclick="filterSelection('Dd')"> D</button>
+            <button class="btn" onclick="filterSelection('Ee')"> E</button>
+            <button class="btn" onclick="filterSelection('Ff')"> F</button>
+            <button class="btn" onclick="filterSelection('Gg')"> G</button>
+            <button class="btn" onclick="filterSelection('Hh')"> H</button>
+            <button class="btn" onclick="filterSelection('Ii')"> I</button>
+            <button class="btn" onclick="filterSelection('Jj')"> J</button>
+            <button class="btn" onclick="filterSelection('Kk')"> K</button>
+            <button class="btn" onclick="filterSelection('Ll')"> L</button>
+            <button class="btn" onclick="filterSelection('Mm')"> M</button>
+            <button class="btn" onclick="filterSelection('Nn')"> N</button>
+            <button class="btn" onclick="filterSelection('Oo')"> O</button>
+            <button class="btn" onclick="filterSelection('Pp')"> P</button>
+            <button class="btn" onclick="filterSelection('Qq')"> Q</button>
+            <button class="btn" onclick="filterSelection('Rr')"> R</button>
+            <button class="btn" onclick="filterSelection('Ss')"> S</button>
+            <button class="btn" onclick="filterSelection('Tt')"> T</button>
+            <button class="btn" onclick="filterSelection('Uu')"> U</button>
+            <button class="btn" onclick="filterSelection('Vv')"> V</button>
+            <button class="btn" onclick="filterSelection('Ww')"> W</button>
+            <button class="btn" onclick="filterSelection('Xx')"> X</button>
+            <button class="btn" onclick="filterSelection('Yy')"> Y</button>
+            <button class="btn" onclick="filterSelection('Zz')"> Z</button>
+        </div>
+
+        <div class="container">
+
+        <div style="background-color: rgb(117, 184, 223);" class="img-wraper Konosuba content column Aa" alt="Konosuba">
+        <a href="/personagens/Konosuba/aqua.html">
+        <div title="Aqua" style="background-image: url(/img/Konosuba/Aqua.png);" class="img"></div></a><!--img-->
+        <p>Aqua</p></div>
+        <!--img-wraper-->
+            
+        <div style="background-color: rgb(223, 124, 117);" class="img-wraper Konosuba content column Mm" alt="Konosuba">
+        <a href="/personagens/Konosuba/megumin.html">
+        <div title="Megumin" style="background-image: url(/img/Konosuba/Megumin.png);" class="img"></div></a><!--img-->
+        <p>Megumin</p></div>
+        <!--img-wraper-->
+
+        <div style="background-color: rgb(221, 223, 117);" class="img-wraper Konosuba content column Dd" alt="Konosuba">
+        <a href="personagens/Konosuba/darkness.html">
+        <div title="Darkness" style="background-image: url(/img/Konosuba/Darkness.png);" class="img"></div></a><!--img-->
+        <p>Darkness</p></div>
+        <!--img-wraper-->
+
+        <div style="background-color: rgb(255, 0, 0);" class="img-wraper Kakegurui content column Yy" alt="Kakegurui">
+        <a href="https://kakegurui.fandom.com/wiki/Yumeko_Jabami" target="blank">
+        <div title="Yumeko Jabami" style="background-image: url(/img/Kakegurui/Yumeko.png);" class="img"></div></a><!--img-->
+        <p>Yumeko Jabami</p></div>
+        <!--img-wraper-->
+
+        <div style="background-color: rgb(117, 205, 221);" class="img-wraper Kakegurui content column Kk" alt="Kakegurui">
+        <a href="">
+        <div title="Kirari Momobami" style="background-image: url(/img/Kakegurui/Kirari.png);" class="img"></div></a><!--img-->
+        <p>Kirari Momobami</p></div>
+        <!--img-wraper-->
+        
+        <div style="background-color: rgb(251, 255, 16);" class="img-wraper Kakegurui content column Mm" alt="Kakegurui">
+        <a href="">
+        <div title="Mary Saotome" style="background-image: url(/img/Kakegurui/Saotome.png);" class="img"></div></a><!--img-->
+        <p style="color: black;">Mary Saotome</p></div>
+        <!--img-wraper-->
+
+        <div style="background-color: #e86566;" class="img-wraper Kakegurui content column Yy">
+        <a href="">
+        <div style="background-image: url(/img/Kakegurui/yumemi.png);" class="img"></div></a><!--img-->
+        <p>Yumemi Yumemite</p></div>
+        <!--img-wraper-->
+
+        <div style="background-color: rgb(228, 192, 228);" class="img-wraper Boku content column Oo" alt="BNHA">
+        <a href="#">
+        <div title="Ochako Uraraka" style="background-image: url(/img/Boku/uraraka.png);" class="img"></div></a><!--img-->
+        <p>Ochako Uraraka</p></div>
+        <!--img-wraper-->
+            
+        <div style="background-color: rgb(35, 211, 0);" class="img-wraper Boku content column Tt" alt="BNHA">
+        <a href="#">
+        <div title="Tsuyu Asui" style="background-image: url(/img/Boku/Tsuyu_Asui.png);" class="img"></div></a><!--img-->
+        <p>Tsuyu Asui</p></div>
+        <!--img-wraper-->
+
+        <div style="background-color: rgb(255, 0, 0);" class="img-wraper Boku content column Mm" alt="BNHA">
+        <a href="#">
+        <div title="Momo Yaoyorozu" style="background-image: url(/img/Boku/Momo_Yaoyorozu.png);" class="img"></div></a><!--img-->
+        <p>Momo Yaoyorozu</p></div>
+        <!--img-wraper-->
+
+        <div style="background-color: rgb(145, 22, 22);" class="img-wraper Boku content column Hh">
+        <a href="#">
+        <div title="Himiko Toga" style="background-image: url(/img/Boku/Himiko_Toga.png);" class="img"></div></a><!--img-->
+        <p>Himiko Toga</p></div>
+        <!--img-wraper-->
+
+        <div style="background-color: rgb(233, 104, 125);" class="img-wraper Darling content column Zz">
+        <a href="#">
+        <div title="Zero Two" style="background-image: url(/img/Darling/zero_two.png);" class="img"></div></a><!--img-->
+        <p>Zero Two</p></div>
+        <!--img-wraper-->
+            
+        <div style="background-color: rgb(53, 146, 252);" class="img-wraper Darling content column Ii">
+        <a href="#">
+        <div title="Ichigo" style="background-image: url(/img/Darling/ichigo.png);" class="img"></div></a><!--img-->
+        <p>Ichigo</p></div>
+        <!--img-wraper-->
+            
+        <div style="background-color: rgb(206, 44, 44);" class="img-wraper Darling content column Mm">
+        <a href="#">
+        <div title="Miku" style="background-image: url(/img/Darling/miku.png);" class="img"></div></a><!--img-->
+        <p>Miku</p></div>
+        <!--img-wraper-->
+            
+        <div style="background-color: rgb(152, 245, 129);" class="img-wraper Darling content column Kk">
+        <a href="#">
+        <div title="Kokoro" style="background-image: url(/img/Darling/kokoro.png);" class="img"></div></a><!--img-->
+        <p>Kokoro</p></div>
+        <!--img-wraper-->
+            
+        <div style="background-color: rgb(183, 129, 245);" class="img-wraper Darling content column Nn">
+        <a href="#">
+        <div title="Nana" style="background-image: url(/img/Darling/Nana.png);" class="img"></div></a><!--img-->
+        <p>Nana</p></div>
+        <!--img-wraper-->
+            
+        <div style="background-color: rgb(129, 245, 235);" class="img-wraper Darling content column Ii">
+        <a href="#">
+        <div title="Ikuno" style="background-image: url(/img/Darling/ikuno.png);" class="img"></div></a><!--img-->
+        <p>Ikuno</p></div>
+        <!--img-wraper-->
+
+
+        <div class="clear"></div><!--clear(espaçamento, não apagar!)-->
+        </div><!--container-->                 
+
+
+
+    <script>
+        filterSelection("all")
+            function filterSelection(c) {
+                var x, i;
+                x = document.getElementsByClassName("column");
+                if (c == "all") c = "";
+                for (i = 0; i < x.length; i++) {
+                    w3RemoveClass(x[i], "show");
+                    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+                }
+            }
+
+            function w3AddClass(element, name) {
+                var i, arr1, arr2;
+                arr1 = element.className.split(" ");
+                arr2 = name.split(" ");
+                for (i = 0; i < arr2.length; i++) {
+                    if (arr1.indexOf(arr2[i]) == -1) { element.className += " " + arr2[i]; }
+                }
+            }
+
+            function w3RemoveClass(element, name) {
+                var i, arr1, arr2;
+                arr1 = element.className.split(" ");
+                arr2 = name.split(" ");
+                for (i = 0; i < arr2.length; i++) {
+                    while (arr1.indexOf(arr2[i]) > -1) {
+                        arr1.splice(arr1.indexOf(arr2[i]), 1);
+                    }
+                }
+                element.className = arr1.join(" ");
+            }
+
+
+            // Add active class to the current button (highlight it)
+            var btnContainer = document.getElementById("myBtnContainer");
+            var btns = btnContainer.getElementsByClassName("btn");
+            for (var i = 0; i < btns.length; i++) {
+                btns[i].addEventListener("click", function () {
+                    var current = document.getElementsByClassName("active");
+                    current[0].className = current[0].className.replace(" active", "");
+                    this.className += " active";
+                });
+            }
+    </script>
+    </body>
+
+</html>
