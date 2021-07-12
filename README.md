@@ -11,3 +11,7 @@ Site vai para o [ar](http://waifuflix.com/ "Site oficial").
 - **06/07/21**
 
 Repositório Git criado. Página para a personagem Darkness adicionada.
+
+- **12/07/21**
+
+Personagens adicionadas: Yumeko Jabami, Kirari Momobami e Mary Saotome. Adicioando um espaço entre a "bio" e as características.

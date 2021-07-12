@@ -195,3 +195,13 @@ html,body{
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
 }
+
+ul {
+    list-style-type: none;
+}
+
+p a {
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
