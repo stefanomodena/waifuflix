@@ -15,3 +15,7 @@ Repositório Git criado. Página para a personagem Darkness adicionada.
 - **12/07/21**
 
 Personagens adicionadas: Yumeko Jabami, Kirari Momobami e Mary Saotome. Adicioando um espaço entre a "bio" e as características.
+
+- **13/07/21**
+
+Personagens adicionadas: Yumemi Yumemite, Ririka Momobami e Ochaco Uraraka. Adicionadas as tags do Google Analytics.
