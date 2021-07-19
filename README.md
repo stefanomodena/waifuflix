@@ -19,3 +19,7 @@ Personagens adicionadas: Yumeko Jabami, Kirari Momobami e Mary Saotome. Adicioan
 - **13/07/21**
 
 Personagens adicionadas: Yumemi Yumemite, Ririka Momobami e Ochaco Uraraka. Adicionadas as tags do Google Analytics.
+
+- **19/07/21**
+
+Personagens adicionadas: Tsuyu. Adicionado Adsense.
