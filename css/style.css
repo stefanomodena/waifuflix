@@ -28,6 +28,10 @@ html,body{
     border: 3px solid rgb(220, 220, 220);
 }
 
+.container-grupo{
+    background-color: rgba(17, 0, 255, 0.363);
+}
+
 .container-individual{
     align-items: center;
     width: 33.3%;
@@ -204,4 +208,16 @@ p a {
     color: white;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
+}
+
+.contato {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke-width: 0px;
+}
+
+.contato p a {
+    color: white;
+    -webkit-text-stroke-width: 0px;
 }

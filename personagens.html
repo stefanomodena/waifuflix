@@ -27,7 +27,7 @@
     </head>
 
     <body>
-        <h1 class="title">WaifuFlix!</h1>
+        <h1 class="title" id="topo">WaifuFlix!</h1>
                 <p class="bio">"Waifu" é um termo utilizado por fãs de anime para chamar as personagens que eles gostam ou até mesmo
                     sente atração. O termo vem do inglês "Wife", que significa esposa.</p>
 
@@ -67,7 +67,7 @@
             <button class="btn" onclick="filterSelection('Zz')"> Z</button>
         </div>
 
-        <div class="container">
+        <div class="container container-grupo">
 
         <div style="background-color: rgb(117, 184, 223);" class="img-wraper Konosuba content column Aa" alt="Konosuba">
         <a href="/personagens/Konosuba/aqua.html">
@@ -88,7 +88,7 @@
         <!--img-wraper-->
 
         <div style="background-color: rgb(255, 0, 0);" class="img-wraper Kakegurui content column Yy" alt="Kakegurui">
-        <a href="/personagens/Kakegurui/Yumeko.html" target="blank">
+        <a href="/personagens/Kakegurui/Yumeko.html">
         <div title="Yumeko Jabami" style="background-image: url(/img/Kakegurui/Yumeko.png);" class="img"></div></a><!--img-->
         <p>Yumeko Jabami</p></div>
         <!--img-wraper-->
@@ -130,7 +130,7 @@
         <!--img-wraper-->
 
         <div style="background-color: rgb(255, 0, 0);" class="img-wraper Boku content column Mm" alt="BNHA">
-        <a href="#">
+        <a href="/personagens/BNHA/Momo.html">
         <div title="Momo Yaoyorozu" style="background-image: url(/img/Boku/Momo_Yaoyorozu.png);" class="img"></div></a><!--img-->
         <p>Momo Yaoyorozu</p></div>
         <!--img-wraper-->
@@ -181,7 +181,15 @@
         <div class="clear"></div><!--clear(espaçamento, não apagar!)-->
         </div><!--container-->                 
 
-
+                <footer>
+                    <div id="myBtnContainer" class="navegacao btn-topo">
+                        <a href="#topo"><button class="btn">Voltar para o início</button></a>
+                    </div>
+                    <div class="contato">
+                        <p>Contato: <a href="mailto">contato@waifuflix.com</a></p>
+                    </div>
+                
+                </footer>
 
     <script>
         filterSelection("all")
