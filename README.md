@@ -1,8 +1,14 @@
 # WaifuFlix!
 
-O WaifuFlix! é um website que tem como objetivo catalogar o maior número possível de personagens de anime conhecidas como "Waifu", que são personagens que os fãs sente alguma atração ou apenas gostam delas.
+O WaifuFlix! é um website que tem como objetivo catalogar o maior número possível de personagens de anime conhecidas como "Waifu". Agregando informações sobre aparência, personalidade, poderes, etc. e com uma galeria de fotos.
+
+O Site é construído de forma que o usuário possa localizar sua personagem favorita rapidamente agrupando pelo anime, ordem alfabética ou por suas características. 
 
 # Change log
+
+- **24/07/21**
+
+Personagens adicionadas: Himiko toga. Corrigido link quebrado no Footer.
 
 - **20/07/21**
 
