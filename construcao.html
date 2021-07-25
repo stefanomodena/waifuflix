@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!-- Google Tag Manager -->
+        <script>(function (w, d, s, l, i) {
+                w[l] = w[l] || []; w[l].push({
+                    'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'
+                }); var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-M5D5HCM');</script>
+        <!-- End Google Tag Manager -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WaifuFlix!</title>
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/fonts/Yokelvision-J6yx.ttf">
+        <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
+        <link rel="icon" href="/favicon.png" type="image/x-icon">
+        <script data-ad-client="ca-pub-9927110391586573" async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    </head>
+
+    <body>
+
+        <h1 class="title" id="topo">WaifuFlix!</h1>
+        <p class="bio">"Waifu" é um termo utilizado por fãs de anime para chamar as personagens que eles gostam ou até mesmo sente atração. O termo vem do inglês "Wife", que significa esposa.</p>
+        
+        
+        <div id="myBtnContainer" class="navegacao">
+            <a href="/index.html"><button class="btn">Página Inicial</button></a>
+        </div>
+        
+        <div class="construcao">
+        <img src="/img/construcao.jpg" id="foto_construcao">
+        </div>
+        <h1 class="title" id="topo">EM CONSTRUÇÃO! Retorne em breve para ver as novidades!</h1>
+        
+
+        <footer>
+
+            <div class="contato">
+                <p>Contato: <a href="mailto:contato@waifuflix.com">contato@waifuflix.com</a></p>
+            </div>
+            
+        </footer>
+
+<script>
+    filterSelection("all")
+    function filterSelection(c) {
+        var x, i;
+        x = document.getElementsByClassName("column");
+        if (c == "all") c = "";
+        for (i = 0; i < x.length; i++) {
+            w3RemoveClass(x[i], "show");
+            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+        }
+    }
+
+    function w3AddClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+            if (arr1.indexOf(arr2[i]) == -1) { element.className += " " + arr2[i]; }
+        }
+    }
+
+    function w3RemoveClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+            while (arr1.indexOf(arr2[i]) > -1) {
+                arr1.splice(arr1.indexOf(arr2[i]), 1);
+            }
+        }
+        element.className = arr1.join(" ");
+    }
+
+
+    // Add active class to the current button (highlight it)
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function () {
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+        });
+    }
+</script>
+    </body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M5D5HCM" height="0" width="0"
+        style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+</html>
