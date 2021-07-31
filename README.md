@@ -6,6 +6,10 @@ O Site é construído de forma que o usuário possa localizar sua personagem fav
 
 # Change log
 
+- **31/07/21**
+
+Personagens adicionadas: Zero Two.
+
 - **24/07/21**
 
 Personagens adicionadas: Himiko toga. Corrigido link quebrado no Footer. Adicionada página "em construção" para personagens que ainda não possuem uma página própria.
