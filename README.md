@@ -8,7 +8,7 @@ O Site é construído de forma que o usuário possa localizar sua personagem fav
 
 - **31/07/21**
 
-Personagens adicionadas: Zero Two.
+Personagens adicionadas: Zero Two, Ichigo.
 
 - **24/07/21**
 
