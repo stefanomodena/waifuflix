@@ -13,7 +13,16 @@ html,body{
 @font-face{
     font-family: Yokelvision;
     src: url(/fonts/Yokelvision-J6yx.ttf);
+    /* src: url(/fonts/BebasNeue-Regular.ttf); */
 
+
+}
+
+
+
+@font-face {
+    font-family: Ambit;
+    src: url(/fonts/Ambit-Bold.ttf);
 }
 
 .clear{
@@ -160,7 +169,7 @@ html,body{
     margin: 0px auto;
     margin-left: 50px;
     color: white;
-    font-family: 'Yokelvision';
+    font-family: 'Ambit';
     text-align: left;
     font-size: 30px;
     background-color: rgba(220, 220, 220, 0.726);
@@ -226,3 +235,16 @@ p a {
     width: 100%;
 }
 
+.pesquisa{
+    width: 20%;
+    float: right;
+}
+
+@media only screen and (max-width: 600px) {
+    .pesquisa{
+        width: 100%;
+        display: inline-block;
+        align-items: center;
+        margin: 7px;
+    }
+}

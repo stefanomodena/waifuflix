@@ -6,6 +6,11 @@ O Site é construído de forma que o usuário possa localizar sua personagem fav
 
 # Change log
 
+
+- **02/08/21**
+
+Personages adicionadas: Midari, Miku. Correção de erros ortográficos, mudança de fonte das bios, adicionado sistema de pesquisa.
+
 - **31/07/21**
 
 Personagens adicionadas: Zero Two, Ichigo.
