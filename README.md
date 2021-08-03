@@ -8,7 +8,7 @@ O Site é construído de forma que o usuário possa localizar sua personagem fav
 
 - **03/08/21**
 
-Personagens adicionadas: Kokoro, Nana. Correções, adicionado o anime: Demon Slayer
+Personagens adicionadas: Kokoro, Nana, Ikuno. Correções, adicionado o anime: Demon Slayer
 
 - **02/08/21**
 
