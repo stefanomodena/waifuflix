@@ -71,6 +71,8 @@ html,body{
     float: left;
     border: 10px solid rgba(255, 255, 255, 0.24);
     position: relative;
+    max-height: 475px;
+    min-height: 211px;
 }
 
 .img-wraper-individual{
@@ -236,8 +238,12 @@ p a {
 }
 
 .pesquisa{
-    width: 30%;
+    max-width: 30%;
     float: right;
+}
+
+.nome-curto{
+    display: none;
 }
 
 @media only screen and (max-width: 600px) {
@@ -246,5 +252,11 @@ p a {
         display: inline-block;
         align-items: center;
         margin: 7px;
+    }
+    .nome-curto{
+        display: inline;
+    }
+    .nome-longo{
+        display: none;
     }
 }

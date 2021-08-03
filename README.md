@@ -6,10 +6,13 @@ O Site é construído de forma que o usuário possa localizar sua personagem fav
 
 # Change log
 
+- **03/08/21**
+
+Personagens adicionadas: Kokoro. Correções, adicionado o anime: Demon Slayer
 
 - **02/08/21**
 
-Personages adicionadas: Midari, Miku. Correção de erros ortográficos, mudança de fonte das bios, adicionado sistema de pesquisa.
+Personagens adicionadas: Midari, Miku. Correção de erros ortográficos, mudança de fonte das bios, adicionado sistema de pesquisa.
 
 - **31/07/21**
 
