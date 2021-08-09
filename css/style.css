@@ -120,6 +120,7 @@ html,body{
   padding: 12px 16px;
   background-color: white;
   cursor: pointer;
+  margin: 2px 1px;
 }
 
 .btn:hover {
@@ -197,7 +198,7 @@ html,body{
     position: relative;
 }
     .btn{
-        margin: 2px 0;
+        margin: 2px;
     }
 }
 
@@ -238,12 +239,11 @@ p a {
 }
 
 .pesquisa{
-    max-width: 30%;
+    width: 30%;
     float: right;
 }
 
 .nome-curto{
-    display: none;
     visibility: hidden;
 }
 
@@ -259,7 +259,8 @@ p a {
         display: inline;
     }
     .nome-longo{
-        display: none;
         visibility: hidden;
+        width: 0;
+        height: 0;
     }
 }
