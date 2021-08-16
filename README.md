@@ -6,6 +6,9 @@ O Site é construído de forma que o usuário possa localizar sua personagem fav
 
 # Change log
 
+- **16/08/21**
+
+Google Analytics.
 
 - **09/08/21**
 
