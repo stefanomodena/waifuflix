@@ -263,4 +263,24 @@ p a {
         width: 0;
         height: 0;
     }
+
+
 }
+
+
+/*
+    .sinopse{
+    width: 90%;
+    margin: 0px auto;
+    margin-left: 50px;
+    color: white;
+    font-family: 'Ambit';
+    text-align: left;
+    font-size: 14px;
+    background-color: rgba(220, 220, 220, 0.726);
+    border: 10px solid rgba(255, 255, 255, 0.24);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    } 
+
+    */
