@@ -6,6 +6,14 @@ O Site é construído de forma que o usuário possa localizar sua personagem fav
 
 # Change log
 
+- **21/08/21**
+
+Personagem adicionada: Kanao.
+
+- **17/08/21**
+
+Instragram adicionado na seção de contato.
+
 - **16/08/21**
 
 Personagens adicionadas: Mitsuri. Google Analytics. 
