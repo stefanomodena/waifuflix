@@ -6,6 +6,10 @@ O Site é construído de forma que o usuário possa localizar sua personagem fav
 
 # Change log
 
+- **08/09/21**
+
+Personagem adicionada: Hinata Hyuga.
+
 - **31/08/21**
 
 Personagem adicionada: Sakura Haruno.
