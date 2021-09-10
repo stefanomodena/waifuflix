@@ -6,6 +6,10 @@ O Site é construído de forma que o usuário possa localizar sua personagem fav
 
 # Change log
 
+- **10/09/21**
+
+Personagem adicionada: Tsunade.
+
 - **08/09/21**
 
 Personagem adicionada: Hinata Hyuga.
