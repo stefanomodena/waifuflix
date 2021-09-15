@@ -6,6 +6,10 @@ O Site é construído de forma que o usuário possa localizar sua personagem fav
 
 # Change log
 
+- **15/09/21**
+
+Correções.
+
 - **10/09/21**
 
 Personagem adicionada: Tsunade.
